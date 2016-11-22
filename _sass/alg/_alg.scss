@@ -1,8 +1,17 @@
 @import 'variables';
-@import 'syntax';
+/*@import 'syntax';*/
 
 body {
-  border-top: 7px solid $accent-secondary;
+  border-top: 10px solid $accent-secondary;
+
+  a {
+    color: $accent-primary;
+      
+    &:hover { 
+      color: darken($accent-secondary, 5);
+      font-weight: bold;
+    }
+  }
 }
 
 header {
@@ -41,7 +50,7 @@ header {
         color: $accent-color;
       
         &:hover { 
-          color: darken($accent-color, 15);
+          color: $accent-primary;
         }
       }
       
@@ -165,8 +174,7 @@ article {
   }
 
   code {
-    border: 1px solid #ddd;
-    background-color: #eef;
+    background-color: lighten($accent-secondary, 40);
     font-size: 85%;
     padding: 0 .3em;
   }
@@ -243,6 +251,10 @@ footer {
     a {
       color: $accent-color;
       font-size: 1.8em;
+    }
+
+    a:hover {
+      color: $accent-secondary;
     }
 
     #social-links {

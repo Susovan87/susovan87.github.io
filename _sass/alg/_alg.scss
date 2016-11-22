@@ -20,7 +20,8 @@ header {
     max-height: $nav-height;
 
     img {
-      max-height: $nav-height - 20;
+      border-radius: 50%;
+      max-height: $nav-height - 10;
       margin-top: 10px;
       margin-bottom: 10px;
     }

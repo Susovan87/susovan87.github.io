@@ -1,9 +1,3 @@
-- name: Growth
-  desc: |
-    The journey towards senior engineer, with an emphasis on soft 
-    skills &amp; professional growth
-  tag_name: growth
-
 - name: Delightful Products
   desc: |
     Thoughts on building simple products that people love
@@ -25,14 +19,3 @@
     Looking back critically, in both personal &amp; professional 
     contexts
   tag_name: reflections
-
-- name: Tangential
-  desc: |
-    The intersection of software and other crafts &amp; 
-    professions
-  tag_name: tangential
-
-- name: Engineering in Android
-  desc: |
-    Applying best-practices &amp; techniques to Android development
-  tag_name: android

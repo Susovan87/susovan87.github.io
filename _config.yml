@@ -4,6 +4,19 @@ kramdown:
   input: GFM
   hard_wrap: false
 exclude: ["CNAME", "README.md", "Rakefile", "generate.rb", "Gemfile", "Gemfile.lock"]
+
 gems:
   - jekyll-sitemap
   - jemoji
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "post"
+
+collections:
+  notes:
+    output: true
+    permalink: /notes/:path/

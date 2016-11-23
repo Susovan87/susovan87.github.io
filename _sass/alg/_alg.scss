@@ -303,6 +303,20 @@ footer {
   }
 }
 
+#notes {
+  ul  {
+    margin-top: 0;
+    margin-bottom: 10px;
+    list-style-type: none;
+
+    span {
+      color: #aaa;
+      padding-right: 5px;
+    }
+  } 
+}
+
+
 #fine-print {
   text-align: center;
   font-size: 11px;
